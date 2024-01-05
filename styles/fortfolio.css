@@ -24,7 +24,18 @@ nav {
   font-weight: 700;
   padding: 15px 35px;
 }
+.section-title{
+color: #181818; 
+text-align: center;
+font-size: 35px;
+font-weight: 700px;
+}
 
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+}
 .nav-title {
   color:black;
   font-size: 45px;
@@ -47,6 +58,9 @@ nav a{
 /* header related styles */
 .header{
   background-color: #FFF8F3;
+  background-image: url('../images/bd.jpg');
+  background: no-repeat;
+  background-position: bottom;
 }
 .bannnar{
   padding: 30px 30px 30px 150px;
@@ -56,3 +70,14 @@ nav a{
 .bannnar .profile-pic{
   width: 500px;
 }
+ /* main section styles */
+
+/* about section styles */
+.about{
+padding: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0;
+}
+
+
